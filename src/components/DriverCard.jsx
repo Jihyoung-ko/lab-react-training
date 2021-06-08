@@ -1,16 +1,16 @@
 import Rating from '../components/Rating';
 
 const DriverCard = (props) => {
-  const {name, rating, img } = props;
+  const {name, rating, img, car} = props;
   return (
     <div className="driverCard-container">
       <div className="img-container">
-        <img src={img} alt="" />
+        <img src={img} alt={name} />
       </div>
       <div className="driver-info-container" style={{margin:"10px"}}>
         <h2 style={{margin:"0"}}>{name}</h2>
         <Rating>{rating}</Rating>
-        <p>{props.car.model} - {props.car.licensePlate}</p>
+        <p>{car.model} - {car.licensePlate}</p>
       </div>
 
     </div>
