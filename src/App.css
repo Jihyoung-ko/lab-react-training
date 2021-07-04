@@ -8,7 +8,7 @@
   margin-bottom: 10px;
 }
 
-.id-card {
+.flex {
   display: flex;
 }
 
@@ -20,7 +20,7 @@ p {
   margin: 0.2rem;
 }
 
-.bold {
+span{
   font-weight: bold;
 }
 
@@ -48,4 +48,68 @@ p {
   width: 100px;
   object-fit: cover;
   border-radius: 100px;
+}
+
+.like-button:focus {
+  border: #87d6eb  5px solid;
+  border-radius: 5px;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.box p {
+  margin-top: 15px;
+}
+
+.text-container {
+  font-size: larger;
+  margin-left: 10px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.facebook-btn {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  padding: 5px 7px;
+  border: 1px solid grey;
+}
+
+.sign-up-container {
+  max-width: 400px;
+}
+
+form {
+  flex-direction: column;
+}
+
+form label, form input, form select {
+  margin-bottom: 10px;
+}
+
+input, select {
+  padding: 5px 10px;
+}
+
+.sign-up-btn {
+  padding: 10px;
+  background-color: #87d6eb;
+  border: none;
+  border-radius: 5px;
+  width: 30%;
+  margin: 10px auto;
+  font-weight: bold;
+}
+
+.color-picker p {
+  margin: auto 10px;
 }

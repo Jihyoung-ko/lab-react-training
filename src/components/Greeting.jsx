@@ -8,9 +8,9 @@ const Greeting = (props) => {
   }
 
   return (
-    <div className="container">
+   
       <p>{languages[lang]} {children}</p>
-    </div>
+    
   )
 }
 
